@@ -1,0 +1,24 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "Dinamica de la semana 2 del curso de taller de aplicaciones con sotelo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Jesus Sebastian Huamanculi Casavilca",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
